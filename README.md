@@ -48,7 +48,7 @@ Images above display examples of each category label in the dataset. Ripe, Unrip
 | **Avg. WxH**    | 63x66 | 75x81 | 59x61  | 71x75    | 60x60     |
 | **Std. WxH**    | 18x23 | 18x22 | 17x22  | 16x21    | 16x17     |
 
-Here is the basic statistics of the images included in Riseholme-2021. The high class imbalance between normal and anomalous samples (95.7% vs 4.3%) simulates the *rare* occurrence of anomalous observation in detection task. 
+Here is the basic statistics of the images included in Riseholme-2021, where WxH denotes the width x height of image. The severe class imbalance between normal and anomalous samples (95.7% vs 4.3%) simulates the *rare* occurrence of anomalous observation in realistic detection tasks. 
 
 # Random Splits
 
