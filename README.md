@@ -10,7 +10,7 @@ In particular, a commercial mobile robotic platform, *Thorvald*, was operated as
 
 ![](Figs/camera_rig.jpg)
 
-Human experts then examined each image to crop a strawberry-centered region and annotate with one of the following category labels: *Ripe, Unripe, Occluded,* or *Anomalous*. Ripe, Unripe, and Anomalous contain images of single strawberries, while Occluded may have strawberries overlaying one another or covered by green stems. 
+Human experts then examined each image to crop a strawberry-centered region and annotate with one of the following category labels: *Ripe, Unripe, Occluded,* or *Anomalous*. Ripe, Unripe, and Anomalous contain images of single strawberries, while Occluded may have healthy strawberries overlaying one another or covered by green stems. 
 
 In addition, the dataset has currently been designed for research under the assumption of One-class Classification, in which during training phase, only the images of normal class are available, although once trained, the detectors are expected to classify anomalous class. For this setting, we recommend learning the models on "all" but the "anomalous" category to later detect images from anomalous as well. 
 
@@ -32,10 +32,10 @@ In addition, the dataset has currently been designed for research under the assu
 
 | Ripe  | Unripe   |Occluded   |Anomalous  |
 |--------------------|---------------------|--------------|--------------|
-| ![](Figs/Examples/Ripe/37-64x64.png)| ![](Data/Normal/Ripe/37.png) |![](Data/Normal/Ripe/37.png) |![](Data/Normal/Ripe/37.png) |
-| ![](Figs/Examples/Ripe/155-64x64.png)| ![](Data/Normal/Ripe/37.png) |![](Data/Normal/Ripe/37.png) |![](Data/Normal/Ripe/37.png) |
-| ![](Figs/Examples/Ripe/706-64x64.png)| ![](Data/Normal/Ripe/37.png) |![](Data/Normal/Ripe/37.png) |![](Data/Normal/Ripe/37.png) |
-| ![](Figs/Examples/Ripe/1037-64x64.png)| ![](Data/Normal/Ripe/37.png) |![](Data/Normal/Ripe/37.png) |![](Data/Normal/Ripe/37.png) |
+| ![](Figs/Examples/Ripe/37-64x64.png)| ![](Figs/Examples/Unripe/0-64x64.png) |![](Figs/Examples/Occluded/48-64x64.png) |![](Figs/Examples/Anomalous/232-64x64.png) |
+| ![](Figs/Examples/Ripe/155-64x64.png)| ![](Figs/Examples/Unripe/733-64x64.png) |![](Figs/Examples/Occluded/1346-64x64.png) |![](Figs/Examples/Anomalous/705-64x64.png) |
+| ![](Figs/Examples/Ripe/706-64x64.png)| ![](Figs/Examples/Unripe/801-64x64.png) |![](Figs/Examples/Occluded/3560-64x64.png) |![](Figs/Examples/Anomalous/776-64x64.png) |
+| ![](Figs/Examples/Ripe/1037-64x64.png)| ![](Figs/Examples/Unripe/848-64x64.png) |![](Figs/Examples/Occluded/4001-64x64.png) |![](Figs/Examples/Anomalous/1766-64x64.png) |
 
 # Statistics 
 
