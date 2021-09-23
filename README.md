@@ -74,7 +74,7 @@ Riseholme-2021 is provided with three random splits for estimating the overall p
 3. Ripe + Unripe `(RU)`
 4. Ripe + Unripe + Occluded `(RUO)`
 
-Because One-class Classification is the default task, the text files in split folders only contain the file names of normal strawberry images assuming all images of anomalous strawberry are surely used in tests. For example, `Split1-RUO-Test` has:
+Because One-class Classification is the default task, the text files in split folders only contain the file names of normal strawberry images assuming all images of "anomalous" strawberry are surely used in tests. For example, `Split1-RUO-Test` has lines like:
 
 ```
 ...
