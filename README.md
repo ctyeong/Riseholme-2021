@@ -1,12 +1,12 @@
 # Riseholme-2021 🍓 
 
-This repository is the official storage of the *Riseholme-2021* dataset, which contains novel images collected for encouraging active research on "fruit" anomaly detection. 
+This repository is the official storage of the novel *Riseholme-2021* dataset, which contains >3.5K images of strawberries at various growth stages along with anomalous instances. 
 You can find the first introduction of the dataset in the following paper: 
 
 ***"Self-supervised Representation Learning for Reliable Robotic Monitoring of Fruit Anomalies"***. *Taeyeong Choi, Owen Would, Adrian Salazar-Gomez, and Grzegorz Cielniak*. [\[arXiv:2109.10135\]](https://arxiv.org/abs/2109.10135) 
 
 **Data collection** was performed in the "strawberry" research farm at the *Riseholme* campus of the University of Lincoln in UK. 
-In particular, a commercial mobile robotic platform, *Thorvald*, was operated as shown below to move along the lanes in polytunnels whilst a side-mounted RGB camera was taking images of normal and anomalous strawberries at various maturity stages.  
+In particular, a commercial mobile robotic platform, *Thorvald*, was operated as shown below to move along the lanes in polytunnels whilst a side-mounted RGB camera was taking images of normal and anomalous strawberries.  
 
 ![](Figs/camera_rig.jpg)
 
@@ -14,8 +14,8 @@ In particular, a commercial mobile robotic platform, *Thorvald*, was operated as
 
 **One-class Classification** is the target task for which the Riseholme-2021 dataset has initially been designed under the assumption that during training phase, only the images of normal class are available, although once trained, the detectors are expected to classify anomalous class. For this setting, we recommend learning the models on "all" but the "anomalous" category to later detect images from anomalous as well. 
 
-**Our purpose** of sharing this dataset publicly is to encourage more researchers to develop interests in fruit anomaly detection, which is one of the most promising tasks where AI/Robotic systems could help transform agriculture. 
-For better facilitation, we offer not only a large amount of strawberry image data with basic analyses but the link to the *written manuscript* above that reports the detection performance of state-of-the-art methods from our experiments as benchmark. 
+**Our purpose** of sharing this dataset publicly is to encourage more researchers to develop interests in *fruit anomaly detection*, which is one of the most promising tasks where AI/Robotic systems could help transform agriculture. 
+For better facilitation, we offer not only *a large amount of strawberry image data* with basic analyses but the link to the *written manuscript* above that reports the detection performance of state-of-the-art methods based on our experiments as benchmark. 
 
 # Contents
 
@@ -27,7 +27,7 @@ For better facilitation, we offer not only a large amount of strawberry image da
 
 1. [Random Splits](https://github.com/ctyeong/Riseholme-2021#random-splits)
 
-1. [Benchmark](https://github.com/ctyeong/Riseholme-2021#benchmark-performance)
+1. [Benchmark Performance](https://github.com/ctyeong/Riseholme-2021#benchmark-performance)
 
 1. [Citation](https://github.com/ctyeong/Riseholme-2021#citation)
 
@@ -53,7 +53,8 @@ Images above display examples of each category label in the dataset. Ripe, Unrip
 | **Avg. WxH**    | 63x66 | 75x81 | 59x61  | 71x75    | 60x60     |
 | **Std. WxH**    | 18x23 | 18x22 | 17x22  | 16x21    | 16x17     |
 
-Here is the basic statistics of the images included in Riseholme-2021, where WxH denotes the width x height of image. The severe class imbalance between normal and anomalous samples (95.7% vs 4.3%) simulates the *rare* occurrence of anomalous observation in realistic detection tasks. 
+Here is the basic statistics of the images included in Riseholme-2021, where WxH denotes the width x height of image. 
+The severe *class imbalance* between normal and anomalous samples (95.7% vs 4.3%) simulates the *rare* occurrence of anomalous observation in realistic detection tasks. 
 
 # How to Use
 
@@ -70,7 +71,7 @@ You can now find the two folders you need under the root directory downloaded (o
 
 # Random Splits 
 
-Riseholme-2021 is provided with three random splits for estimating the overall performance of learning algorithms. Each split has exclusive sets of 70%, 10%, and 20% "normal" samples for training, validation, and test, respectively. In addition, four following scenarios are considered to include as normal class: 
+Riseholme-2021 is provided with three random splits for estimating the overall performance of learning-based detection algorithms. Each split has exclusive sets of 70%, 10%, and 20% "normal" samples for training, validation, and test, respectively. In addition, four following scenarios are considered to attempt to include different combinations of categories as normal class: 
 
 1. Ripe `(R)`
 2. Unripe `(U)`
@@ -94,7 +95,7 @@ Occluded/839.png
 
 # Benchmark Performance
 
-For those who are interested in the baseline performance on Riseholme-2021, we refer to the aforementioned paper [***\(Choi et al., 2021\)***](https://arxiv.org/abs/2109.10135) or [***their official GitHub repository***](https://github.com/ctyeong/CH-Rand), in which state-of-the-art frameworks for anomaly detection have been validated as well as their novel self-supervised learning approach has been proposed with the most reliable performance. 
+For those who are interested in the baseline performance on Riseholme-2021, we refer to the aforementioned paper [***\(Choi et al., 2021\)***](https://arxiv.org/abs/2109.10135) or [***their official GitHub repository***](https://github.com/ctyeong/CH-Rand), in which state-of-the-art frameworks for anomaly detection have been validated, and their novel self-supervised learning approach has also been proposed with the most reliable performance. 
 
 # Citation 
 ```
