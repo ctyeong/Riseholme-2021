@@ -18,15 +18,17 @@ In addition, the dataset has currently been designed for research under the assu
 
 1. [Examples](https://github.com/ctyeong/Riseholme-2021#examples)
 
-2. [Statistics](https://github.com/ctyeong/Riseholme-2021#statistics)
+1. [Statistics](https://github.com/ctyeong/Riseholme-2021#statistics)
 
-3. [Random Splits](https://github.com/ctyeong/Riseholme-2021#random-split)
+1. [How to Use](https://github.com/ctyeong/Riseholme-2021#how-to-use)
 
-4. [Benchmark](https://github.com/ctyeong/Riseholme-2021#benchmark-performance)
+1. [Random Splits](https://github.com/ctyeong/Riseholme-2021#random-splits)
 
-5. [Citation](https://github.com/ctyeong/Riseholme-2021#citation)
+1. [Benchmark](https://github.com/ctyeong/Riseholme-2021#benchmark-performance)
 
-6. [Contact](https://github.com/ctyeong/Riseholme-2021#contact)
+1. [Citation](https://github.com/ctyeong/Riseholme-2021#citation)
+
+1. [Contact](https://github.com/ctyeong/Riseholme-2021#contact)
 
 # Examples 
 
@@ -50,7 +52,22 @@ Images above display examples of each category label in the dataset. Ripe, Unrip
 
 Here is the basic statistics of the images included in Riseholme-2021, where WxH denotes the width x height of image. The severe class imbalance between normal and anomalous samples (95.7% vs 4.3%) simulates the *rare* occurrence of anomalous observation in realistic detection tasks. 
 
-# Random Splits
+# How to Use
+
+First, either (1) download the .zip file by using [this link](https://github.com/ctyeong/Riseholme-2021/archive/refs/heads/main.zip) and unzip it or (2) git clone the repository by typing the following command: 
+
+```
+$ git clone https://github.com/ctyeong/Riseholme-2021.git
+```
+
+You can now find the two folders you need under the root directory downloaded (or extracted): 
+
+- `Data`: All image data under categorical folders, such as `Normal/Ripe`, `Normal/Unripe`, `Normal/Occluded`, and `Anomalous`. 
+- `Splits`: Sub-folders of three random splits, in each of which text files contain individual file names for Train, Val, and Test sets. More details follow [in the next section](https://github.com/ctyeong/Riseholme-2021#random-splits).
+
+# Random Splits 
+
+
 
 # Benchmark Performance
 
