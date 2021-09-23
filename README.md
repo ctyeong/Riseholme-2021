@@ -54,7 +54,7 @@ Here is the basic statistics of the images included in Riseholme-2021, where WxH
 
 # How to Use
 
-First, either (1) download the .zip file by using [this link](https://github.com/ctyeong/Riseholme-2021/archive/refs/heads/main.zip) and unzip it or (2) git clone the repository by typing the following command: 
+First, either (1) download the .zip file by using [this link](https://github.com/ctyeong/Riseholme-2021/archive/refs/heads/main.zip) and unzip it or (2) git clone this repository by typing the following command: 
 
 ```
 $ git clone https://github.com/ctyeong/Riseholme-2021.git
@@ -62,12 +62,32 @@ $ git clone https://github.com/ctyeong/Riseholme-2021.git
 
 You can now find the two folders you need under the root directory downloaded (or extracted): 
 
-- `Data`: All image data under categorical folders, such as `Normal/Ripe`, `Normal/Unripe`, `Normal/Occluded`, and `Anomalous`. 
+- `Data`: All image data under categorical folders, such as "Normal/Ripe", "Normal/Unripe", "Normal/Occluded", and "Anomalous". 
 - `Splits`: Sub-folders of three random splits, in each of which text files contain individual file names for Train, Val, and Test sets. More details follow [in the next section](https://github.com/ctyeong/Riseholme-2021#random-splits).
 
 # Random Splits 
 
+Riseholme-2021 is provided with three random splits for estimating the overall performance of learning algorithms. Each split has exclusive sets of 70%, 10%, and 20% "normal" samples for training, validation, and test, respectively. In addition, four following scenarios are considered to include as normal class: 
 
+1. Ripe `(R)`
+2. Unripe `(U)`
+3. Ripe + Unripe `(RU)`
+4. Ripe + Unripe + Occluded `(RUO)`
+
+Because One-class Classification is the default task, the text files in split folders only contain the file names of normal strawberry images assuming all images of anomalous strawberry are surely used in tests. For example, `Split1-RUO-Test` has:
+
+```
+...
+Unripe/3695.png
+Unripe/4628.png
+Ripe/4007.png
+Unripe/1995.png
+Ripe/3624.png
+Occluded/2760.png
+Unripe/887.png
+Occluded/839.png
+...
+```
 
 # Benchmark Performance
 
