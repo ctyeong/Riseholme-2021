@@ -91,13 +91,15 @@ Occluded/839.png
 
 # Benchmark Performance
 
+For those who are interested in the baseline performance on Riseholme-2021, we refer to the aforementioned paper [***\(Choi et al., 2021\)***](https://arxiv.org/abs/2109.10135) or [***their official GitHub repository***](https://github.com/ctyeong/CH-Rand), in which state-of-the-art frameworks for anomaly detection have been validated as well as their novel self-supervised learning approach has been proposed with the most reliable performance. 
+
 # Citation 
 ```
 @article{CWSC21,
-      title={Self-supervised Representation Learning for Reliable Robotic Monitoring of Fruit Anomalies}, 
-      author={Taeyeong Choi and Owen Would and Adrian Salazar-Gomez and Grzegorz Cielniak},
-      year={2021},
-      journal={arXiv},
+    title={Self-supervised Representation Learning for Reliable Robotic Monitoring of Fruit Anomalies}, 
+    author={Taeyeong Choi and Owen Would and Adrian Salazar-Gomez and Grzegorz Cielniak},
+    year={2021},
+    journal={arXiv},
 }
 ```
 
