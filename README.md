@@ -37,7 +37,18 @@ In addition, the dataset has currently been designed for research under the assu
 | ![](Figs/Examples/Ripe/706-64x64.png)| ![](Figs/Examples/Unripe/801-64x64.png) |![](Figs/Examples/Occluded/3560-64x64.png) |![](Figs/Examples/Anomalous/776-64x64.png) |
 | ![](Figs/Examples/Ripe/1037-64x64.png)| ![](Figs/Examples/Unripe/848-64x64.png) |![](Figs/Examples/Occluded/4001-64x64.png) |![](Figs/Examples/Anomalous/1766-64x64.png) |
 
+Images above display examples of each category label in the dataset. Ripe, Unripe, and Occluded are *normal* strawberries at various growth stages with possible occlusions, whereas anomalous class only contains strawberries with some *health issues*. 
+
 # Statistics 
+
+|                 | All   | Ripe  | Unripe | Occluded | Anomalous |
+|---------------- | ------|-------|--------|----------|-----------|
+| **# of images** | 3,520 | 462   | 2,406  | 499      | 153       |
+| **Percentage**  | 100%  | 13.1% | 68.4%  | 14.2%    | 4.3%      |
+| **Avg. WxH**    | 63x66 | 75x81 | 59x61  | 71x75    | 60x60     |
+| **Std. WxH**    | 18x23 | 18x22 | 17x22  | 16x21    | 16x17     |
+
+Here is the basic statistics of the images included in Riseholme-2021. The high class imbalance between normal and anomalous samples (95.7% vs 4.3%) simulates the *rare* occurrence of anomalous observation in detection task. 
 
 # Random Splits
 
