@@ -5,14 +5,17 @@ You can find the first introduction of the dataset in the following paper:
 
 ***"Self-supervised Representation Learning for Reliable Robotic Monitoring of Fruit Anomalies"***. *Taeyeong Choi, Owen Would, Adrian Salazar-Gomez, and Grzegorz Cielniak*. [\[arXiv:2109.10135\]](https://arxiv.org/abs/2109.10135) 
 
-Data collection was performed in the "strawberry" research farm at the *Riseholme* campus of the University of Lincoln in UK. 
+**Data collection** was performed in the "strawberry" research farm at the *Riseholme* campus of the University of Lincoln in UK. 
 In particular, a commercial mobile robotic platform, *Thorvald*, was operated as shown below to move along the lanes in polytunnels whilst a side-mounted RGB camera was taking images of normal and anomalous strawberries at various maturity stages.  
 
 ![](Figs/camera_rig.jpg)
 
-Human experts then examined each image to crop a strawberry-centered region and annotate with one of the following category labels: *Ripe, Unripe, Occluded,* or *Anomalous*. Ripe, Unripe, and Anomalous contain images of single strawberries, while Occluded may have healthy strawberries overlaying one another or covered by green stems. 
+**Data annotation** involved human experts, who examined each image to crop a strawberry-centered region and label with one of the following categories: *Ripe, Unripe, Occluded,* or *Anomalous*. Ripe, Unripe, and Anomalous contain images of single strawberries, while Occluded may have healthy strawberries overlaying one another or covered by green stems. 
 
-In addition, the dataset has currently been designed for research under the assumption of One-class Classification, in which during training phase, only the images of normal class are available, although once trained, the detectors are expected to classify anomalous class. For this setting, we recommend learning the models on "all" but the "anomalous" category to later detect images from anomalous as well. 
+**One-class Classification** is the target task for which the Riseholme-2021 dataset has initially been designed under the assumption that during training phase, only the images of normal class are available, although once trained, the detectors are expected to classify anomalous class. For this setting, we recommend learning the models on "all" but the "anomalous" category to later detect images from anomalous as well. 
+
+**Our purpose** of sharing this dataset publicly is to encourage more researchers to develop interests in fruit anomaly detection, which is one of the most promising tasks where AI/Robotic systems could help transform agriculture. 
+For better facilitation, we offer not only a large amount of strawberry image data with basic analyses but the link to the *written manuscript* above that reports the detection performance of state-of-the-art methods from our experiments as benchmark. 
 
 # Contents
 
