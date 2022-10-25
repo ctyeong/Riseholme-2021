@@ -99,11 +99,13 @@ For those who are interested in the baseline performance on Riseholme-2021, we r
 
 # Citation 
 ```
-@article{CWSC21,
-    title={Self-supervised Representation Learning for Reliable Robotic Monitoring of Fruit Anomalies}, 
-    author={Taeyeong Choi and Owen Would and Adrian Salazar-Gomez and Grzegorz Cielniak},
-    year={2021},
-    journal={arXiv},
+@inproceedings{CWSC21,
+  title={Self-supervised Representation Learning for Reliable Robotic Monitoring of Fruit Anomalies},
+  author={Choi, Taeyeong and Would, Owen and Salazar-Gomez, Adrian and Cielniak, Grzegorz},
+  booktitle={2022 International Conference on Robotics and Automation (ICRA)},
+  pages={2266--2272},
+  year={2022},
+  organization={IEEE}
 }
 ```
 
