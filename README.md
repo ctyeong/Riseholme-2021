@@ -3,7 +3,7 @@
 This repository is the official storage of the novel *Riseholme-2021* dataset, which contains >3.5K images of strawberries at various growth stages along with anomalous instances. 
 You can find the first introduction of the dataset in the following paper: 
 
-***"Self-supervised Representation Learning for Reliable Robotic Monitoring of Fruit Anomalies"***. *Taeyeong Choi, Owen Would, Adrian Salazar-Gomez, and Grzegorz Cielniak*. ICRA2022. [\[arXiv:2109.10135\]](https://arxiv.org/abs/2109.10135) 
+***"Self-supervised Representation Learning for Reliable Robotic Monitoring of Fruit Anomalies"***. *Taeyeong Choi, Owen Would, Adrian Salazar-Gomez, and Grzegorz Cielniak. ICRA2022.* [\[arXiv:2109.10135\]](https://arxiv.org/abs/2109.10135) 
 
 **Data collection** was performed in the "strawberry" research farm at the *Riseholme* campus of the University of Lincoln in UK. 
 In particular, a commercial mobile robotic platform, *Thorvald*, was operated as shown below to move along the lanes in polytunnels whilst a side-mounted RGB camera was taking images of normal and anomalous strawberries.  
