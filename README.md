@@ -109,4 +109,4 @@ For those who are interested in the baseline performance on Riseholme-2021, we r
 
 # Contact
 
-If there is any questions about the dataset, please do not hesitate to drop an email to tchoi@lincoln.ac.uk or gcielniak@lincoln.ac.uk. Thanks!
+If there is any questions about the dataset, please do not hesitate to drop an email to taechoi@ucdavis.edu or gcielniak@lincoln.ac.uk. Thanks!
