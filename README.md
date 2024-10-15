@@ -1,9 +1,11 @@
 # Riseholme-2021 🍓 
 
 This repository is the official storage of the novel *Riseholme-2021* dataset, which contains >3.5K images of strawberries at various growth stages along with anomalous instances. 
-You can find the first introduction of the dataset in the following paper: 
+You can find the first introduction of the dataset in the following papers: 
 
 ***"Self-supervised Representation Learning for Reliable Robotic Monitoring of Fruit Anomalies"***. *Taeyeong Choi, Owen Would, Adrian Salazar-Gomez, and Grzegorz Cielniak. ICRA2022.* [\[arXiv:2109.10135\]](https://arxiv.org/abs/2109.10135) 
+
+***"Channel Randomisation: Self-Supervised Representation Learning for Reliable Visual Anomaly Detection in Specialty Crops"***. *Taeyeong Choi, Owen Would, Adrian Salazar-Gomez, Xin Liu, and Grzegorz Cielniak. Journal of Computers and Electronics in Agriculture.*
 
 **Data collection** was performed in the "strawberry" research farm at the *Riseholme* campus of the University of Lincoln in UK. 
 In particular, a commercial mobile robotic platform, *Thorvald*, was operated as shown below to move along the lanes in polytunnels whilst a side-mounted RGB camera was taking images of normal and anomalous strawberries.  
@@ -98,6 +100,7 @@ Occluded/839.png
 For those who are interested in the baseline performance on Riseholme-2021, we refer to the aforementioned paper [***\(Choi et al., 2022\)***](https://arxiv.org/abs/2109.10135) or [***their official GitHub repository***](https://github.com/ctyeong/CH-Rand), in which state-of-the-art frameworks for anomaly detection have been validated, and their novel self-supervised learning approach has also been proposed with the most reliable performance. 
 
 # Citation 
+Please cite one of the following papers when including the dataset in your publications: 
 ```
 @inproceedings{CWSC21,
   title={Self-supervised Representation Learning for Reliable Robotic Monitoring of Fruit Anomalies},
@@ -107,8 +110,17 @@ For those who are interested in the baseline performance on Riseholme-2021, we r
   year={2022},
   organization={IEEE}
 }
+@article{CWSLC24,
+  title={Channel randomisation: Self-supervised representation learning for reliable visual anomaly detection in speciality crops},
+  author={Choi, Taeyeong and Would, Owen and Salazar-Gomez, Adrian and Liu, Xin and Cielniak, Grzegorz},
+  journal={Computers and Electronics in Agriculture},
+  volume={226},
+  pages={109416},
+  year={2024},
+  publisher={Elsevier}
+}
 ```
 
 # Contact
 
-If there is any questions about the dataset, please do not hesitate to drop an email to taechoi@ucdavis.edu or gcielniak@lincoln.ac.uk. Thanks!
+If there is any questions about the dataset, please do not hesitate to drop an email to tchoi3@kennesaw.edu or gcielniak@lincoln.ac.uk. Thanks!
