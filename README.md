@@ -5,7 +5,7 @@ You can find the first introduction of the dataset in the following papers:
 
 ***"Self-supervised Representation Learning for Reliable Robotic Monitoring of Fruit Anomalies"***. *Taeyeong Choi, Owen Would, Adrian Salazar-Gomez, and Grzegorz Cielniak. ICRA2022.* [\[arXiv:2109.10135\]](https://arxiv.org/abs/2109.10135) 
 
-***"Channel Randomisation: Self-Supervised Representation Learning for Reliable Visual Anomaly Detection in Specialty Crops"***. *Taeyeong Choi, Owen Would, Adrian Salazar-Gomez, Xin Liu, and Grzegorz Cielniak. Journal of Computers and Electronics in Agriculture.*
+***"Channel Randomisation: Self-Supervised Representation Learning for Reliable Visual Anomaly Detection in Specialty Crops"***. *Taeyeong Choi, Owen Would, Adrian Salazar-Gomez, Xin Liu, and Grzegorz Cielniak. Journal of Computers and Electronics in Agriculture.*  [Link](https://doi.org/10.1016/j.compag.2024.109416) 
 
 **Data collection** was performed in the "strawberry" research farm at the *Riseholme* campus of the University of Lincoln in UK. 
 In particular, a commercial mobile robotic platform, *Thorvald*, was operated as shown below to move along the lanes in polytunnels whilst a side-mounted RGB camera was taking images of normal and anomalous strawberries.  
